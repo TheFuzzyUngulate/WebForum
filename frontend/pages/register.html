@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="true-centerer">
+    <div class="login-centerer">
+      <div class="login-form-container">
+        <div class="login-title-container">
+          <h1>Sign Up</h1>
+        </div>
+        <div class="login-form-individual-container">
+          <label for="uname"><b>Username:</b></label>
+          <input type="text" placeholder="Username" name="uname">
+        </div>
+        <div class="login-form-individual-container">
+          <label for="eml"><b>Email:</b></label>
+          <input type="text" placeholder="Enter email (optional)" name="eml">
+        </div>
+        <div class="login-form-individual-container">
+          <label for="pword"><b>Password:</b></label>
+          <input type="password" placeholder="Enter password" name="pword">
+        </div>
+        <button>Register</button>
+        <p>Already have an account? <a href="/login">Log in</a> instead</p>
+        <p class="login-page-error-holder"></p>
+        <p class="login-page-warning-holder">Email not provided. Are you sure?</p>
+      </div>
+    </div>
+  </div>
+</body>
+<script src="/scripts/register.js" type="module"></script>
+</html>
